@@ -15,6 +15,4 @@ git commit -m 'deploy'
 
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com/vorehoci/koi-coffee.git main:gh-pages
-
-cd -
+git push -f origin gh-pages
