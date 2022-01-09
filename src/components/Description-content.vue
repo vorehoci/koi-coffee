@@ -3,6 +3,7 @@
 
 <template>
   <div class="description-wrapper">
+    <h2 class="description-title">What do we offer?</h2>
     <div class="description-grid">
       <div class="card">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -165,12 +166,18 @@
 
 <style scoped>
 .description-wrapper {
+  padding: 100px 0;
   background: linear-gradient(45deg, #9c9bff, #ff5d8e, #f6ff00);
 }
 
+.description-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
 .description-grid {
-  font-family: sans-serif;
-  padding: 100px 0;
   margin: 0 auto;
   width: 100%;
   max-width: 960px;
@@ -212,5 +219,17 @@
   position: relative;
   margin: 0 0 15px;
   font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.card__title:before {
+    content: '';
+    position: absolute;
+    left: -35px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f6ff00;
 }
 </style>

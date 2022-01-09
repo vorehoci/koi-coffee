@@ -12,6 +12,10 @@ import DescriptionContent from './components/Description-content.vue'
 * { box-sizing:  border-box; }
 html, 
 body {
+  font-family: 'Lora', serif;
   margin: 0;
+}
+button {
+  font-family: 'Lora', serif;
 }
 </style>

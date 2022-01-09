@@ -107,31 +107,17 @@
   position: relative;
   border: 0;
   padding: 20px 40px;
-  background: #f6ff00;
+  color: white;
+  background: #9c9bff;
   font-size: 18px;
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .hero-signup:hover {
   background: #ff5d8e;
-}
-
-.hero-signup:hover:after {
-  top: 0;
-  left: 0;
-}
-.hero-signup:after {
-  content: '';
-  height: 100%;
-  width: 100%;
-  background: #ff5d8e;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  transition: 0.3s;
-  z-index: -1;
 }
 
 .hero-content {
